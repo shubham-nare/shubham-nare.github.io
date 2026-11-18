@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shubham Nare · Content</title>
+<meta name="description" content="Reels, event films, a fortnightly newsletter and a published article: the content Shubham Nare has planned, shot, edited and shipped at IIT Hyderabad.">
+<meta property="og:title" content="Shubham Nare · Content">
+<meta property="og:description" content="Reels, event films, a newsletter and an article, with the numbers and what made each one work.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://shubham-nare.github.io/content/">
+<meta property="og:image" content="https://shubham-nare.github.io/content/img/ig-DJFKtEdt7bU.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%2334D399'/%3E%3Cstop offset='1' stop-color='%238B7CF6'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='16' fill='url(%23g)'/%3E%3Ctext x='32' y='42' font-family='Arial,sans-serif' font-size='25' font-weight='700' fill='%2307090C' text-anchor='middle'%3ESN%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@300..800&family=Geist+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<script>try{var t=localStorage.getItem('sn-theme');if(t)document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+<style>
+:root{
+  --bg:#FBFAF7;--bg-2:#F1EFE9;--surface:#FFFFFF;--fg:#0D0F14;--muted:#545A6B;--faint:#8A8F9C;
+  --line:rgba(13,15,20,.08);--line-strong:rgba(13,15,20,.16);
+  --a1:#059669;--a2:#7C3AED;--a3:#EA580C;--a1-soft:#E7F8F0;
+  --shadow:0 1px 2px rgba(16,24,40,.04),0 16px 36px -18px rgba(16,24,40,.18);
+  --dots:rgba(13,15,20,.07);
+  --display:"Instrument Serif","Iowan Old Style",Georgia,serif;
+  --body:"Geist","Segoe UI",system-ui,sans-serif;
+  --mono:"Geist Mono",ui-monospace,Consolas,monospace;
+  --max:1120px;--radius:18px;color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#07090C;--bg-2:#0C0F14;--surface:#0F1218;--fg:#ECEEF2;--muted:#9AA0AD;--faint:#6B7180;
+  --line:rgba(255,255,255,.08);--line-strong:rgba(255,255,255,.16);
+  --a1:#34D399;--a2:#8B7CF6;--a3:#F5A35C;--a1-soft:rgba(52,211,153,.10);
+  --shadow:none;--dots:rgba(255,255,255,.035);color-scheme:dark;}}
+:root[data-theme="dark"]{
+  --bg:#07090C;--bg-2:#0C0F14;--surface:#0F1218;--fg:#ECEEF2;--muted:#9AA0AD;--faint:#6B7180;
+  --line:rgba(255,255,255,.08);--line-strong:rgba(255,255,255,.16);
+  --a1:#34D399;--a2:#8B7CF6;--a3:#F5A35C;--a1-soft:rgba(52,211,153,.10);
+  --shadow:none;--dots:rgba(255,255,255,.035);color-scheme:dark;}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{margin:0;color:var(--fg);background-color:var(--bg);
+  background-image:radial-gradient(var(--dots) 1px,transparent 1.2px);background-size:26px 26px;
+  font:400 1rem/1.6 var(--body);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{max-width:100%;display:block}
+a{color:inherit}
+h1,h2,h3{margin:0;font-weight:500;text-wrap:balance}
+p{margin:0}
+.wrap{max-width:var(--max);margin-inline:auto;padding-inline:24px}
+.mono{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.serif{font-family:var(--display);font-weight:400}
+.eyebrow{font-family:var(--mono);font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.grad{background:linear-gradient(100deg,var(--a1),var(--a2) 55%,var(--a3));-webkit-background-clip:text;background-clip:text;color:transparent}
+:focus-visible{outline:2px solid var(--a1);outline-offset:3px;border-radius:8px}
+
+/* Nav */
+nav{position:sticky;top:0;z-index:10;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+  background:color-mix(in srgb,var(--bg) 78%,transparent);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;gap:20px;height:60px}
+.logo{font-family:var(--mono);font-weight:500;text-decoration:none;font-size:.9rem}
+.logo b{color:var(--a1)}
+.navlinks{display:flex;gap:18px;margin-left:auto;font-size:.88rem}
+.navlinks a{text-decoration:none;color:var(--muted)}
+.navlinks a:hover{color:var(--fg)}
+.theme{border:1px solid var(--line-strong);background:transparent;color:var(--fg);border-radius:999px;width:34px;height:34px;cursor:pointer;font-size:.9rem}
+
+/* Hero */
+.hero{padding:72px 0 40px}
+.hero h1{font-family:var(--display);font-weight:400;font-size:clamp(2.6rem,6.4vw,4.8rem);line-height:1.02;letter-spacing:-.01em;margin:14px 0 22px;max-width:15ch}
+.hero .lede{font-size:1.12rem;color:var(--muted);max-width:62ch}
+.hero .lede b{color:var(--fg);font-weight:600}
+.cta{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:10px 16px;border-radius:999px;border:1px solid var(--line-strong);text-decoration:none;font-size:.92rem;background:var(--surface)}
+.btn.primary{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;margin-top:48px}
+.stat{background:var(--surface);padding:20px 20px 18px}
+.stat .n{font-family:var(--display);font-size:2.4rem;line-height:1}
+.stat .l{color:var(--muted);font-size:.86rem;margin-top:8px}
+
+/* Sections */
+section{padding:64px 0 8px}
+.sec-head{display:grid;grid-template-columns:1fr 1.25fr;gap:28px 48px;align-items:end;margin-bottom:28px}
+.sec-head h2{font-family:var(--display);font-weight:400;font-size:clamp(2rem,4.4vw,3rem);line-height:1.05;margin-top:10px}
+.sec-head .role{font-family:var(--mono);font-size:.8rem;color:var(--a1);margin-top:12px}
+.sec-head p{color:var(--muted)}
+.sec-head p b{color:var(--fg);font-weight:600}
+
+.did{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:26px}
+.did div{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px 16px;font-size:.92rem;box-shadow:var(--shadow)}
+.did div span{display:block;font-family:var(--mono);font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;color:var(--faint);margin-bottom:4px}
+
+/* Reel cards */
+.reels{display:grid;grid-template-columns:repeat(var(--cols,5),1fr);gap:14px}
+.reel{display:flex;flex-direction:column;text-decoration:none;background:var(--surface);border:1px solid var(--line);border-radius:16px;overflow:hidden;box-shadow:var(--shadow);transition:transform .25s ease,border-color .25s ease}
+.reel:hover{transform:translateY(-3px);border-color:var(--line-strong)}
+.thumb{position:relative;aspect-ratio:9/16;background:var(--bg-2);overflow:hidden}
+.thumb img{width:100%;height:100%;object-fit:cover}
+.thumb.wide{aspect-ratio:16/9}
+.views{position:absolute;left:10px;bottom:10px;background:rgba(7,9,12,.78);color:#fff;font-family:var(--mono);font-size:.78rem;padding:4px 9px;border-radius:999px;display:flex;gap:6px;align-items:center}
+.views svg{width:13px;height:13px}
+.tag{position:absolute;right:10px;top:10px;background:rgba(255,255,255,.92);color:#0D0F14;font-family:var(--mono);font-size:.66rem;letter-spacing:.06em;text-transform:uppercase;padding:3px 8px;border-radius:999px}
+.meta{padding:12px 14px 14px;display:flex;flex-direction:column;gap:6px;flex:1}
+.meta .t{font-weight:600;font-size:.93rem;line-height:1.35}
+.meta .d{font-family:var(--mono);font-size:.72rem;color:var(--faint)}
+.meta .why{font-size:.86rem;color:var(--muted);line-height:1.45}
+.meta .why b{color:var(--fg);font-weight:600}
+
+.insight{margin-top:22px;border:1px dashed var(--line-strong);border-radius:16px;padding:18px 20px;display:grid;grid-template-columns:auto 1fr;gap:14px;align-items:start}
+.insight .k{font-family:var(--mono);font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--a2);padding-top:3px}
+.insight p{color:var(--muted)}
+.insight p b{color:var(--fg)}
+
+.yt{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px;margin-top:26px}
+.subhead{font-family:var(--mono);font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:34px 0 0}
+
+/* Writing */
+.writing{display:grid;grid-template-columns:1.2fr 1fr;gap:16px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:22px;box-shadow:var(--shadow)}
+.card h3{font-size:1.15rem;font-weight:600;margin-bottom:6px}
+.card .sub{font-family:var(--mono);font-size:.74rem;color:var(--faint);margin-bottom:14px}
+.card p{color:var(--muted);font-size:.95rem}
+.issues{list-style:none;margin:16px 0 0;padding:0;display:flex;flex-direction:column;gap:2px}
+.issues a{display:flex;justify-content:space-between;gap:16px;padding:10px 0;border-top:1px solid var(--line);text-decoration:none;font-size:.93rem}
+.issues a:hover .it{color:var(--a1)}
+.issues .dt{font-family:var(--mono);font-size:.74rem;color:var(--faint);white-space:nowrap;padding-top:2px}
+.series{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.series span{font-size:.82rem;border:1px solid var(--line-strong);border-radius:999px;padding:4px 11px}
+.stack{display:flex;flex-direction:column;gap:16px}
+.article{display:grid;grid-template-columns:120px 1fr;gap:18px;align-items:start;text-decoration:none}
+.article img{border-radius:8px;border:1px solid var(--line);aspect-ratio:636/900;object-fit:cover;object-position:top}
+.article blockquote{margin:12px 0 0;padding-left:12px;border-left:2px solid var(--a1);font-family:var(--display);font-size:1.12rem;line-height:1.35;color:var(--fg)}
+.books{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:14px}
+.books a{display:flex;gap:10px;align-items:center;text-decoration:none;font-size:.88rem;border:1px solid var(--line);border-radius:12px;padding:8px}
+.books img{width:44px;border-radius:4px}
+.link{color:var(--a1);font-size:.88rem;text-decoration:none;font-weight:500}
+.link:hover{text-decoration:underline}
+
+/* Process */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.step{border-top:2px solid var(--fg);padding-top:14px}
+.step .num{font-family:var(--mono);font-size:.74rem;color:var(--faint)}
+.step h3{font-size:1.05rem;font-weight:600;margin:6px 0}
+.step p{color:var(--muted);font-size:.9rem}
+
+footer{margin-top:80px;border-top:1px solid var(--line);padding:32px 0 48px;color:var(--muted);font-size:.9rem}
+footer .wrap{display:flex;flex-wrap:wrap;gap:14px 24px;justify-content:space-between;align-items:center}
+footer .links{display:flex;flex-wrap:wrap;gap:18px}
+footer a{text-decoration:none}
+footer a:hover{color:var(--fg)}
+
+@media (max-width:860px){
+  .stats{grid-template-columns:repeat(2,1fr)}
+  .sec-head,.writing{grid-template-columns:1fr}
+  .did{grid-template-columns:1fr}
+  .steps{grid-template-columns:repeat(2,1fr)}
+  .reels{grid-template-columns:repeat(3,1fr)}
+  .navlinks{display:none}
+  .theme{margin-left:auto}
+}
+@media (max-width:520px){
+  .wrap{padding-inline:16px}
+  .hero{padding-top:44px}
+  .reels{grid-template-columns:repeat(2,1fr);gap:10px}
+  .meta{padding:10px}
+  .meta .why{font-size:.8rem}
+  .stat .n{font-size:2rem}
+  .steps{grid-template-columns:1fr}
+  .article{grid-template-columns:84px 1fr}
+  .books{grid-template-columns:1fr}
+  .insight{grid-template-columns:1fr}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="play" viewBox="0 0 24 24"><path fill="currentColor" d="M8 5.5v13a1 1 0 0 0 1.5.86l11-6.5a1 1 0 0 0 0-1.72l-11-6.5A1 1 0 0 0 8 5.5Z"/></symbol></svg>
+
+<nav>
+  <div class="wrap">
+    <a class="logo" href="../">shubham<b>.</b>nare <span style="color:var(--faint)">/ content</span></a>
+    <div class="navlinks">
+      <a href="#picapool">Picapool</a>
+      <a href="#echo">Echo IITH</a>
+      <a href="#writing">Writing</a>
+      <a href="#process">How I work</a>
+    </div>
+    <button class="theme" id="theme" aria-label="Toggle dark mode">◐</button>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="eyebrow">Content portfolio · IIT Hyderabad '27</div>
+    <h1>I plan it, shoot it, cut it, and <span class="grad serif" style="font-style:italic">check if it worked.</span></h1>
+    <p class="lede">For the last two years I've made content around campus: <b>reels and a year-long content calendar</b> for a student startup, <b>event films</b> for IIT Hyderabad's media council, a <b>fortnightly finance newsletter</b>, and a <b>published article</b>. Below is the work, the numbers, and what I think made each piece land.</p>
+    <div class="cta">
+      <a class="btn primary" href="#picapool">See the work ↓</a>
+      <a class="btn" href="../">Product work →</a>
+      <a class="btn" href="https://www.linkedin.com/in/shubham-nare-2b2a79221/" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+    <div class="stats">
+      <div class="stat"><div class="n">92.3K</div><div class="l">views on Echo's farewell reel for the Class of 2025, on a 5.4K-follower page</div></div>
+      <div class="stat"><div class="n">27.7K</div><div class="l">views on Picapool's best reel, from an account with under 700 followers</div></div>
+      <div class="stat"><div class="n">+67%</div><div class="l">Picapool followers over the year I ran its content calendar</div></div>
+      <div class="stat"><div class="n">10</div><div class="l">issues of FCC's fortnightly finance newsletter on Medium</div></div>
+    </div>
+  </div>
+</header>
+
+<main>
+<!-- PICAPOOL -->
+<section id="picapool">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="eyebrow">01 · Short-form · Instagram</div>
+        <h2>A year of content for a campus startup</h2>
+        <div class="role">Picapool · Founding Member, Product &amp; Growth · 2024–25</div>
+      </div>
+      <p>Picapool lets students nearby pool cabs, food, subscriptions and group buys. It had a small page and no budget, so reach had to come from <b>the idea, the hook and the timing</b>. I planned the whole year in advance, with every post, caption and release date. I made reels, jumped on new trends, and commented on viral videos to pull their viewers to our page.</p>
+    </div>
+    <div class="did">
+      <div><span>Planned</span>A full-year content calendar: posts, captions and release dates, built around exams, festivals and campus moments</div>
+      <div><span>Made</span>Reels in brand voice, meme formats and creator collabs, each tied to one use case of the app</div>
+      <div><span>Grew</span>Followers up <b>67%</b>, and the top reels reached <b>more than 15×</b> the account's follower count</div>
+    </div>
+
+    <div class="reels" style="--cols:6">
+      <a class="reel" href="https://www.instagram.com/reel/DGnbWNQh7aj/" target="_blank" rel="noopener">
+        <div class="thumb"><img src="img/ig-DGnbWNQh7aj.jpg" alt="Phone showing the Picapool app logo" loading="lazy"><span class="tag">Creator collab</span><span class="views"><svg><use href="#play"/></svg>27.7K</span></div>
+        <div class="meta"><div class="t">"Who needs friends when you've got strangers?"</div><div class="d">Feb 2025</div><p class="why">Told by a creator, in first person, about a trip that cost less. <b>The app is the punchline, not the ad.</b></p></div>
+      </a>
+      <a class="reel" href="https://www.instagram.com/reel/DC9DJG7vFn4/" target="_blank" rel="noopener">
+        <div class="thumb"><img src="img/ig-DC9DJG7vFn4.jpg" alt="Student posing on campus in a Picapool reel" loading="lazy"><span class="tag">Creator collab</span><span class="views"><svg><use href="#play"/></svg>14.1K</span></div>
+        <div class="meta"><div class="t">Unlock your daily convenience</div><div class="d">Nov 2024</div><p class="why">One familiar campus face walking through every use case: assignments, a borrowed shirt, a shared cab. <b>One reel, the whole product.</b></p></div>
+      </a>
+      <a class="reel" href="https://www.instagram.com/reel/DDmWFJcoRdz/" target="_blank" rel="noopener">
+        <div class="thumb"><img src="img/ig-DDmWFJcoRdz.jpg" alt="Laptop showing a streaming service home screen" loading="lazy"><span class="views"><svg><use href="#play"/></svg>10.3K</span></div>
+        <div class="meta"><div class="t">Split your OTT, pay half</div><div class="d">Dec 2024 · 46 comments</div><p class="why">A price every student already knows. <b>"The more people join, the less you pay"</b> explains pooling in one line.</p></div>
+      </a>
+      <a class="reel" href="https://www.instagram.com/reel/DF16ClsoabG/" target="_blank" rel="noopener">
+        <div class="thumb"><img src="img/ig-DF16ClsoabG.jpg" alt="Meme: Maths exam at 8 am, bro at 7:59 am, with the app's request screen" loading="lazy"><span class="tag">Meme</span><span class="views"><svg><use href="#play"/></svg>5.1K</span></div>
+        <div class="meta"><div class="t">"URGENT! Need a calculator ASAP"</div><div class="d">Feb 2025 · exam season</div><p class="why">A meme everyone has lived, with the <b>real app screen as the punchline</b>: a product demo that doesn't feel like one.</p></div>
+      </a>
+      <a class="reel" href="https://www.instagram.com/reel/DHao1L6K43K/" target="_blank" rel="noopener">
+        <div class="thumb"><img src="img/ig-DHao1L6K43K.jpg" alt="Students in a classroom" loading="lazy"><span class="tag">Event</span><span class="views"><svg><use href="#play"/></svg>5.3K</span></div>
+        <div class="meta"><div class="t">Picapool's Quiz on Unstop</div><div class="d">Mar 2025</div><p class="why">A prize people wanted, Rs 5,000 and comedy-show tickets, <b>turned a sign-up drive into content</b>.</p></div>
+      </a>
+      <a class="reel" href="https://www.instagram.com/reel/DJj7_gCz5tz/" target="_blank" rel="noopener">
+        <div class="thumb"><img src="img/ig-DJj7_gCz5tz.jpg" alt="Creator talking to camera" loading="lazy"><span class="tag">Meme</span><span class="views"><svg><use href="#play"/></svg>4.3K</span></div>
+        <div class="meta"><div class="t">"When the founder tells the marketing girly…"</div><div class="d">May 2025 · 54 comments on 99 likes</div><p class="why">A self-aware joke about startup life. <b>The highest comment rate on the page</b>, because everyone had an opinion.</p></div>
+      </a>
+    </div>
+
+    <div class="insight">
+      <div class="k">What the numbers said</div>
+      <p>The two biggest reels were <b>creator-led and told in first person</b>; the best brand-voice reel was a <b>price hook</b> (half-price OTT). Memes got the most comments for their reach. So the brand works best as the answer to a familiar student problem, not as the subject of the post.</p>
+    </div>
+    <p style="margin-top:14px"><a class="link" href="https://www.instagram.com/picapool_/" target="_blank" rel="noopener">See the full page on Instagram →</a></p>
+  </div>
+</section>
+
+<!-- ECHO -->
+<section id="echo">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="eyebrow">02 · Event films · Instagram + YouTube</div>
+        <h2>Covering a campus for its own media council</h2>
+        <div class="role">Echo IITH · Multimedia Coordinator, Students' Gymkhana · May 2024 – May 2025</div>
+      </div>
+      <p>Echo is IIT Hyderabad's student media body. With the Echo team I <b>covered campus events end to end</b>: shooting, editing, and deciding what went on Instagram, LinkedIn and YouTube, and when. The same moment often became <b>three cuts</b>: a teaser reel, a full film on YouTube, and Shorts.</p>
+    </div>
+
+    <div class="reels">
+      <a class="reel" href="https://www.instagram.com/reel/DJFKtEdt7bU/" target="_blank" rel="noopener">
+        <div class="thumb"><img src="img/ig-DJFKtEdt7bU.jpg" alt="IIT Hyderabad gate lit at night" loading="lazy"><span class="views"><svg><use href="#play"/></svg>92.3K</span></div>
+        <div class="meta"><div class="t">Farewell to the final years</div><div class="d">Apr 2025 · 4,591 likes</div><p class="why">Nostalgia at the exact week people feel it. <b>17× the page's follower count.</b></p></div>
+      </a>
+      <a class="reel" href="https://www.instagram.com/reel/DJRGoSyNx1L/" target="_blank" rel="noopener">
+        <div class="thumb"><img src="img/ig-DJRGoSyNx1L.jpg" alt="IIT Hyderabad Class Song 2025 title card" loading="lazy"><span class="tag">Teaser</span><span class="views"><svg><use href="#play"/></svg>34.2K</span></div>
+        <div class="meta"><div class="t">Class Song 2025: the teaser</div><div class="d">May 2025</div><p class="why">The reel <b>sends viewers to the full film on YouTube</b>: one idea run across two platforms.</p></div>
+      </a>
+      <a class="reel" href="https://www.instagram.com/reel/C-r_zW7IOSl/" target="_blank" rel="noopener">
+        <div class="thumb"><img src="img/ig-C-r_zW7IOSl.jpg" alt="Independence Day gathering on campus" loading="lazy"><span class="views"><svg><use href="#play"/></svg>23.8K</span></div>
+        <div class="meta"><div class="t">78th Independence Day at IITH</div><div class="d">Aug 2024</div><p class="why">Same-day coverage of a moment the whole campus attended. <b>Speed beats polish</b> for a live event.</p></div>
+      </a>
+      <a class="reel" href="https://www.instagram.com/reel/C946NnloJfc/" target="_blank" rel="noopener">
+        <div class="thumb"><img src="img/ig-C946NnloJfc.jpg" alt="Title card: Lost on campus?" loading="lazy"><span class="tag">Explainer</span><span class="views"><svg><use href="#play"/></svg>15K</span></div>
+        <div class="meta"><div class="t">"Lost on campus???" A guide for freshers</div><div class="d">Jul 2024 · with E-Cell</div><p class="why">Posted just before freshers arrive, built on <b>a question every new student asks</b>, and worth saving.</p></div>
+      </a>
+      <a class="reel" href="https://www.instagram.com/reel/C-k1qbxoZaG/" target="_blank" rel="noopener">
+        <div class="thumb"><img src="img/ig-C-k1qbxoZaG.jpg" alt="Graduate celebrating at convocation" loading="lazy"><span class="views"><svg><use href="#play"/></svg>7.6K</span></div>
+        <div class="meta"><div class="t">Convocation 2024</div><div class="d">Aug 2024</div><p class="why">Focused on <b>the graduates, not the stage</b>, because people share the shots they appear in.</p></div>
+      </a>
+    </div>
+
+    <div class="subhead">Long-form on YouTube</div>
+    <div class="yt">
+      <a class="reel" href="https://www.youtube.com/watch?v=yUdQ5ht2Uec" target="_blank" rel="noopener">
+        <div class="thumb wide"><img src="img/yt-yUdQ5ht2Uec.jpg" alt="Class Song 2025 video thumbnail" loading="lazy"><span class="views"><svg><use href="#play"/></svg>17.8K</span></div>
+        <div class="meta"><div class="t">Class Song 2025 · the full film</div><div class="d">May 2025 · plus Shorts cut-downs at 28K and 3.1K</div></div>
+      </a>
+      <a class="reel" href="https://www.youtube.com/watch?v=3oksFLAvUcc" target="_blank" rel="noopener">
+        <div class="thumb wide"><img src="img/yt-3oksFLAvUcc.jpg" alt="EBSB Onam celebrations video thumbnail" loading="lazy"><span class="views"><svg><use href="#play"/></svg>6.9K</span></div>
+        <div class="meta"><div class="t">EBSB Onam Celebrations 2024</div><div class="d">Sep 2024 · festival film</div></div>
+      </a>
+      <a class="reel" href="https://www.youtube.com/watch?v=VlL7huWN3ww" target="_blank" rel="noopener">
+        <div class="thumb wide"><img src="img/yt-VlL7huWN3ww.jpg" alt="Gymkhana elections debate video thumbnail" loading="lazy"><span class="views"><svg><use href="#play"/></svg>745</span></div>
+        <div class="meta"><div class="t">Gymkhana Elections '25 · debates</div><div class="d">Apr 2025 · 3 debates, full length</div></div>
+      </a>
+      <a class="reel" href="https://www.youtube.com/watch?v=rfavMimjp6g" target="_blank" rel="noopener">
+        <div class="thumb wide"><img src="img/yt-rfavMimjp6g.jpg" alt="How IIT Hyderabad students cracked JEE video thumbnail" loading="lazy"><span class="views"><svg><use href="#play"/></svg>2.2K</span></div>
+        <div class="meta"><div class="t">How IITH students cracked JEE</div><div class="d">Dec 2024 · interview format</div></div>
+      </a>
+    </div>
+    <p style="margin-top:14px"><a class="link" href="https://www.instagram.com/echo.iith/" target="_blank" rel="noopener">Echo on Instagram →</a> &nbsp; <a class="link" href="https://www.youtube.com/@EchoIITH" target="_blank" rel="noopener">Echo on YouTube →</a></p>
+  </div>
+</section>
+
+<!-- WRITING -->
+<section id="writing">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="eyebrow">03 · Writing &amp; long-form</div>
+        <h2>Newsletters, series and print</h2>
+        <div class="role">Finance and Consulting Club, IIT Hyderabad · Overall Head · 2024–26</div>
+      </div>
+      <p>At FCC I oversaw the club's <b>weekly social content</b> and a <b>fortnightly finance newsletter</b>, planned the content for our flagship fest Horizon, and co-wrote two books students still use to prepare for placements.</p>
+    </div>
+
+    <div class="writing">
+      <div class="card">
+        <h3>Fortnightly Finance newsletter</h3>
+        <div class="sub">Medium · 10 issues · Aug 2025 – Feb 2026</div>
+        <p>Two weeks of markets in one read, for students who don't follow finance yet. Every headline names three stories, so it reads like a promise of what's inside.</p>
+        <ul class="issues">
+          <li><a href="https://fcc-iith.medium.com/fortnightly-finance-breakdown-ai-driven-chip-surge-a-2-8b-uranium-pact-and-us-tariff-cuts-714d820194ed" target="_blank" rel="noopener"><span class="it">AI-Driven Chip Surge, a $2.8B Uranium Pact, and US Tariff Cuts</span><span class="dt">Feb 2026</span></a></li>
+          <li><a href="https://fcc-iith.medium.com/fortnightly-finance-news-from-trade-tensions-to-10-minute-deliveries-to-payment-revolutions-ca4148795cb2" target="_blank" rel="noopener"><span class="it">From Trade Tensions to 10-Minute Deliveries to Payment Revolutions</span><span class="dt">Jan 2026</span></a></li>
+          <li><a href="https://fcc-iith.medium.com/finance-updates-streaming-showdowns-space-ipos-and-sin-taxes-d0b5e3d762cc" target="_blank" rel="noopener"><span class="it">Streaming Showdowns, Space IPOs, and Sin Taxes</span><span class="dt">Jan 2026</span></a></li>
+          <li><a href="https://fcc-iith.medium.com/your-fortnight-in-finance-less-tax-no-games-and-more-pizza-edcc6efdf7ee" target="_blank" rel="noopener"><span class="it">Less Tax, No Games, and More Pizza</span><span class="dt">Sep 2025</span></a></li>
+        </ul>
+        <p style="margin-top:12px"><a class="link" href="https://fcc-iith.medium.com/" target="_blank" rel="noopener">All issues on Medium →</a></p>
+        <div class="series" aria-label="Weekly content series">
+          <span>Finance Fridays</span><span>Strategy Sundays</span><span>Weekly quiz</span><span>Campus guesstimate series</span><span>Horizon fest content</span>
+        </div>
+      </div>
+
+      <div class="stack">
+        <div class="card">
+          <a class="article" href="https://iith.ac.in/assets/newsletters/Issue-17.pdf#page=25" target="_blank" rel="noopener">
+            <img src="img/kiriith-p25.jpg" alt="Page 25 of KirIITH Issue 17 with the article" loading="lazy">
+            <div>
+              <h3>Exploring the Alchemy of Industrial Chemistry: A First-Year Odyssey</h3>
+              <div class="sub">KirIITH, IIT Hyderabad's newsletter · Vol 5, Issue 4 · p. 25</div>
+              <p>A first-year diary for the institute magazine. It is also where I wrote about picking up a camera for the first time:</p>
+              <blockquote>"I also learnt how to operate a DSLR and video editing for the first time when IITH hosted the Yuva Sangam Phase 3."</blockquote>
+            </div>
+          </a>
+        </div>
+        <div class="card">
+          <h3>Two books for placement prep</h3>
+          <div class="sub">FCC · first editions · co-authored</div>
+          <p>Long-form content with a job to do: a Finance Handbook and a Consulting &amp; Product casebook with 30+ real interview cases.</p>
+          <div class="books">
+            <a href="../assets/FCC_Finance_Handbook.pdf" target="_blank" rel="noopener"><img src="../assets/cover-handbook.jpg" alt="" loading="lazy">Finance Handbook</a>
+            <a href="../assets/FCC_PrepBook_2026.pdf" target="_blank" rel="noopener"><img src="../assets/cover-prepbook.jpg" alt="" loading="lazy">PrepBook 2026</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section id="process">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="eyebrow">04 · How I work</div>
+        <h2>From one idea to every channel</h2>
+      </div>
+      <p>The same loop sits behind the reels, the films and the newsletter.</p>
+    </div>
+    <div class="steps">
+      <div class="step"><div class="num">01</div><h3>Plan the calendar</h3><p>Release dates set around what the audience is living through: exams, fests, farewells, festivals.</p></div>
+      <div class="step"><div class="num">02</div><h3>Find the hook</h3><p>A problem they already have, a price they already know, or a moment they're already in.</p></div>
+      <div class="step"><div class="num">03</div><h3>Shoot, cut, adapt</h3><p>One shoot, several cuts: a teaser reel, a full film, Shorts and a post, each made for its platform.</p></div>
+      <div class="step"><div class="num">04</div><h3>Read the numbers</h3><p>Views against follower count, and comments and shares against likes, then I adjust the next month's calendar.</p></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>Shubham Nare · B.Tech, IIT Hyderabad '27</div>
+    <div class="links">
+      <a href="../">Product portfolio</a>
+      <a href="../assets/Shubham_Nare_Resume.pdf" target="_blank" rel="noopener">Resume</a>
+      <a href="https://www.linkedin.com/in/shubham-nare-2b2a79221/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="mailto:ic23btech11020@iith.ac.in">Email</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var b=document.getElementById('theme'),r=document.documentElement;
+  b.addEventListener('click',function(){
+    var cur=r.getAttribute('data-theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');
+    var nx=cur==='dark'?'light':'dark'; r.setAttribute('data-theme',nx);
+    try{localStorage.setItem('sn-theme',nx)}catch(e){}
+  });
+})();
+</script>
+</body>
+</html>
